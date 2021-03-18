@@ -15,4 +15,18 @@ public class Cereal
     public double getCarbs() {
         return carbs;
     }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setCarbs(double carbs){
+        this.carbs = carbs;
+    }
+
+    @Override
+    public String toString(){
+        return (name + " has " + carbs + " carbs.");
+    }
+
 }
